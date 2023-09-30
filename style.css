@@ -5,7 +5,7 @@ body{
 }
 
 img{
-  border-radius: 20px;
+  border-radius: 90px;
   border: 5px solid black;
   margin: 5px;
 }
@@ -14,9 +14,9 @@ img{
 button{
   padding: 5px;
   border-radius: 10px;
-  background-color: grey;
-  border: darkorchid;
-  color: rgb(219, 218, 218);
+  background-color: rgb(185, 57, 115);
+  color: rgb(238, 238, 238);
+  height: 30px;
 }
 
 .maincat {
@@ -87,7 +87,33 @@ body{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  gap: 20px;
+  gap: 100px;
   flex-wrap: wrap;
 }
 
+.section.three{
+  background-color: rgb(215, 215, 215);
+  color: grey;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 150px;
+}
+
+.advert{
+  margin-top: 150px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(255, 172, 207);
+  border-radius: 20px;
+}
+
+.footer{
+  text-align: center;
+  background-color: rgb(232, 232, 232);
+}
