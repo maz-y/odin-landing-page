@@ -16,7 +16,7 @@ button{
   border-radius: 10px;
   background-color: rgb(185, 57, 115);
   color: rgb(238, 238, 238);
-  height: 30px;
+  height: fit-content;
 }
 
 .maincat {
@@ -109,11 +109,16 @@ body{
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-color: rgb(255, 172, 207);
+  background-color: rgb(172, 208, 255);
   border-radius: 20px;
 }
 
 .footer{
   text-align: center;
-  background-color: rgb(232, 232, 232);
+  background-color: rgb(0, 0, 0);
+  color: grey;
+}
+.advert button{
+  background-color: cornflowerblue;
+  color: white;
 }
