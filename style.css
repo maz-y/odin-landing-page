@@ -1,11 +1,36 @@
 body{
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img{
+  border-radius: 20px;
+  border: 5px solid black;
+  margin: 5px;
+}
+
+
+button{
+  padding: 5px;
+  border-radius: 10px;
+  background-color: grey;
+  border: darkorchid;
+  color: rgb(219, 218, 218);
+}
+
+.maincat {
+  width:300px;
+}
+
+
+.minicat{
+  width: 150px;
+  height: 150px;
 }
 
 .header{
-  background-color: #1F2937;
+  background-color: black;
   color: white;
   padding: 10px;
   display: flex;
@@ -17,8 +42,52 @@ body{
 
 a {
   text-decoration: none;
-  color: #E5E7EB;
+  color: grey;
   margin: 10px;
   font-size: 10px;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+.section.one{
+  background-color: black;
+  color: white;
+  display: flex;
+  padding: 30px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.subtext{
+  color: grey;
+}
+
+.s1left{
+  max-width: 400px;
+}
+
+.section.two{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+
+.cat{
+  max-width: 150px;
+}
+
+
+.imagesanddescriptions{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
