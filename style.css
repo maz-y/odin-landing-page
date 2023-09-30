@@ -39,7 +39,7 @@ button{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-height: 30px;
+  max-height: fit-content;
 
 }
 
@@ -48,6 +48,10 @@ a {
   color: grey;
   margin: 10px;
   font-size: 15px;
+}
+
+.header-links{
+  display: flex;
 }
 
 body{
