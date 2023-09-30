@@ -4,3 +4,5 @@ Photo by EVG Kowalievska: https://www.pexels.com/photo/selective-focus-photograp
 https://pixabay.com/photos/mammals-pet-one-cute-cat-animals-3210053/
 https://pixabay.com/photos/cat-puss-siamese-breed-cat-1591575/
 https://pixabay.com/photos/cat-puss-siamese-breed-cat-1591575/
+
+Accessible at: https://maz-y.github.io/odin-landing-page
